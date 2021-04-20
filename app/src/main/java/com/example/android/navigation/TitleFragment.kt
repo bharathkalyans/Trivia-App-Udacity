@@ -20,6 +20,7 @@ class TitleFragment : Fragment() {
 
         binding.playButton.setOnClickListener { view : View ->
             Navigation.findNavController(view).navigate(R.id.action_titleFragment_to_gameFragment)
+                    //R.id.action_titleFragment_to_gameFragment is in navigation graph!
         }
         return binding.root
     }
