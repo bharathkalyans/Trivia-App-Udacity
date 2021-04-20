@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         @Suppress("UNUSED_VARIABLE")
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
 
-        //This sets up the Button on the top of the Android Screen.
+        //This sets up the Button on the top of the Action Bar.
         val navController= this.findNavController(R.id.myNavHostFragment)
         NavigationUI.setupActionBarWithNavController(this,navController)
 
